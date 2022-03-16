@@ -1,0 +1,64 @@
+
+
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+
+body {
+  background: #cccccc;
+  background: -webkit-linear-gradient(to bottom right, #cccccc, #474747);
+  background: linear-gradient(to bottom right, #ffcccc, #ff7d7d);
+  min-height: 100vh;
+}
+
+code {
+  color: #000000;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+.container_days {
+    background-color: white;
+    color: black;
+    margin: 1%;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.container_days_p {
+    margin: 1%;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 1em 2em;
+  }
+  ul{
+    flex-direction: row!important;
+    justify-content: space-between!important;
+
+  }
+  li{
+    margin-inline: 1rem;
+  }
+  .py-5{
+    margin-top: -3rem!important;
+  }
+
+}
